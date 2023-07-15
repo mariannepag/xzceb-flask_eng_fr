@@ -9,3 +9,5 @@ class TestTranslations(unittest.TestCase):
     def test_f2e(self):
         self.assertEqual(frenchToEnglish('Bonjour'),'Hello')
         self.assertEqual(frenchToEnglish('Rouge'),'Red')
+
+unittest.main()
